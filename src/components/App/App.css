@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-box {
+  display: table-cell;
+}
