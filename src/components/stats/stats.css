@@ -1,12 +1,23 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
 
 .score {
     display: inline-block;
     width: 300px;
+    border: 1px solid #2D3142;
+    border-radius: 12px;
+    margin-right: 50px;
+}
+
+h1{
+    color: #2D3142;
 }
 
 .score div{
     margin: 0 auto;
     padding: 10px;
+    color: #2D3142;
 }
 
 #score, #floors{
@@ -14,7 +25,20 @@
 }
 
 #nextBlock{
-    border: 1px solid grey;
-    width: 61px;
-    height: 121px;
+    border: 1px solid #2D3142;
+    border-radius: 4px;
+}
+
+#startBtn{
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: white;
+    color: #4F5D75;
+    border: 2px solid #4F5D75;
+}
+
+#startBtn:hover{
+    background-color: #4F5D75;
+    color: white;
+    border: 2px solid #4F5D75;
 }
